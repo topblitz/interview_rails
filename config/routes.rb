@@ -1,6 +1,14 @@
 # get '/patients/:id', to: 'patients#show', as: 'patient'
 
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/kingsong1'
+
+  get 'static_pages/kingsong2'
+
+  get 'static_pages/kingsong3'
+
   get 'home' , to: 'static_pages#home'
 
   get 'kingsong1' , to: 'static_pages#kingsong1'
